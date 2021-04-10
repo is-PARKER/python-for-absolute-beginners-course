@@ -7,12 +7,7 @@ odd_even = given_num % 2
 
 while given_num > 0:
 
-
-
-    if odd_even == 0 and given_num == 0:
-        print(f" {given_num} is even!")
-        break
-    elif odd_even == 0:
+    if odd_even == 0:
         print(f" {given_num} is even!")
         given = input("New number? ")
         given_num = int(given)
